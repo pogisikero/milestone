@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="game2.css">
+        
+    </head> 
+    <body>
+        <header>
+            <a href="#" class="logo">VB</a>
+           <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a href="game.html">Game</a></li>
+           </ul>
+        </header>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">What was the first song that Keith dedicated to you?</h1>
+            </div>
+            <div class="gif_container">
+                <img src="3.png">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Bahaghari</button>
+                <button class="btn" id = "yes1Button" onclick="nextPage1()">Chasing Cars</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "game3.html";
+                    }
+                    function nextPage1() {
+                        window.location.href = "game.html";
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>
